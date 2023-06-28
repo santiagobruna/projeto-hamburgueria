@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+:root{
+    --cor-de-fundo-menu: #CF0000;
+    --cor-preco: #D92027;
+    --hover-botao: #F9E127;
+    --cor-texto-botao: #000000;
+
+
+    --fundo-container-hamburguer: #c9c5c5;
+    --segundo-fundo-container: #C0C0C0;
+    --cor-descricao-produto: #928e8e;
+
+    --font-Hebo: 'Heebo', sans-serif;
+    --font-Karla: 'Karla', sans-serif;
+}
