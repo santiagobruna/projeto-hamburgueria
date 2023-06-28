@@ -12,6 +12,7 @@ body {
     padding: 1em;
     width: 940px; /* Medida fixa para desktop */
     height: 36vw;
+    margin-bottom: 6em;
 }
 
 .container__menu__imagem {
@@ -72,7 +73,8 @@ body {
         border: none;
         padding: 0;
         width: 90%;
-        height: auto;
+        height: 100%;
+        margin-bottom: 6em;
     }
 
     .btn__container {
@@ -121,5 +123,14 @@ body {
 
     .container__itens {
         flex-direction: column;
+    }
+    .container__itens__icon {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px){
+    .container {
+        height: 100%;
     }
 }

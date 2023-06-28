@@ -9,3 +9,9 @@ footer {
     width: 100%;
     font-size: 19px;
 }
+
+@media (max-width: 999px){
+    footer {
+        padding: 5px;
+    }
+}
